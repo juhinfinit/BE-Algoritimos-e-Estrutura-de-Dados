@@ -32,7 +32,7 @@ public class ArraysMatrizes {
         System.out.println(matriz2[1][2]);
 
 
-        System.out.println("Digite um numero: ");
+        System.out.print("Digite um numero: ");
         numeros[0] = Integer.parseInt(scanner.nextLine());
         System.out.println(numeros[0]);
     }
