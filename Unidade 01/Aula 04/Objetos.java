@@ -20,8 +20,8 @@ public class Objetos {
     }
     
     public static void main(String[] args){
-        Objetos pessoa = new Objetos("Juliana", 26, 86f);
-        Objetos pessoa2 = new Objetos("Maria", 29, 65f);
+        ObjetosPessoa pessoa = new ObjetosPessoa("Juliana", 26, 86f);
+        ObjetosPessoa pessoa2 = new ObjetosPessoa("Maria", 29, 65f);
 
        pessoa.exibirInfos();
        pessoa2.exibirInfos();
