@@ -2,7 +2,17 @@ import java.util.*;
 
 public class ContagemPalavras {
     public static void main(String[] args) {
-        String frase = "Esta é uma frase de exemplo, uma frase simples para demonstração.";
+        String frase = "No meio do caminho tinha uma pedra\r\n" + //
+                        "tinha uma pedra no meio do caminho\r\n" + //
+                        "tinha uma pedra\r\n" + //
+                        "no meio do caminho tinha uma pedra.\r\n" + //
+                        "\r\n" + //
+                        "Nunca me esquecerei desse acontecimento\r\n" + //
+                        "na vida de minhas retinas tão fatigadas.\r\n" + //
+                        "Nunca me esquecerei que no meio do caminho\r\n" + //
+                        "tinha uma pedra\r\n" + //
+                        "tinha uma pedra no meio do caminho\r\n" + //
+                        "no meio do caminho tinha uma pedra.";
 
         // Removendo pontuações e convertendo para minúsculas
         frase = frase.toLowerCase().replaceAll("[^a-zA-Z ]", "");
